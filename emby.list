@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,embystrm.eutopiaverse.de
 DOMAIN-SUFFIX,cn2gias.uk
 DOMAIN-SUFFIX,makima.online
 DOMAIN-SUFFIX,313445.xyz
-DOMAIN-SUFFIX,4837.media.doven.tv
+DOMAIN,4837.media.doven.tv
 DOMAIN-SUFFIX,us.nanflix.net
 DOMAIN-SUFFIX,hka-emby.aliz.work
 DOMAIN-SUFFIX,z.sfcj.org
@@ -13,10 +13,9 @@ DOMAIN-SUFFIX,auroramedia.vip
 DOMAIN-SUFFIX,cf.imetyou.top
 DOMAIN-SUFFIX,cf.sfcj.org
 DOMAIN-SUFFIX,emby.779177.xyz
-DOMAIN-SUFFIX,omni.313445.xyz
 DOMAIN-SUFFIX,shrekmedia.org
-DOMAIN-SUFFIX,emby.moe
 DOMAIN-SUFFIX,xxlb.net
 DOMAIN-SUFFIX,loseremby.org
 DOMAIN-SUFFIX,zabc.net
-IP-CIDR,154.12.52.149/25
+DOMAIN-SUFFIX,uhdnow.com
+
