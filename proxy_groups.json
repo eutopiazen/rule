@@ -208,6 +208,15 @@
     ],
     "site_rules": [
       {
+        "key": "direct_domain",
+        "behavior": "classical",
+        "type": "http",
+        "format": "text",
+        "url": "https://raw.githubusercontent.com/eutopiazen/rule/refs/heads/main/direct.list",
+        "path": "./ruleset/direct.list",
+        "interval": 86400
+      },
+      {
         "key": "geolocation-cn",
         "behavior": "domain",
         "type": "http",
