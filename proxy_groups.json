@@ -1,28 +1,5 @@
 [
   {
-    "name": "ads",
-    "label": "广告拦截",
-    "emoji": "🛑",
-    "icon": "🔴",
-    "rule_name": "Ad Block",
-    "group_label": "🛑 广告拦截",
-    "presets": [
-      "comprehensive"
-    ],
-    "site_rules": [
-      {
-        "key": "category-ads-all",
-        "behavior": "domain",
-        "type": "http",
-        "format": "mrs",
-        "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ads-all.mrs",
-        "path": "./ruleset/category-ads-all.mrs",
-        "interval": 86400
-      }
-    ],
-    "ip_rules": []
-  },
-  {
     "name": "gemini",
     "label": "Gemini",
     "emoji": "♊",
