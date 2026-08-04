@@ -890,53 +890,32 @@
     "site_rules": [
       {
         "key": "proxy",
-        "behavior": "domain",
+        "behavior": "classical",
         "type": "http",
-        "format": "mrs",
-        "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/proxy.mrs",
-        "path": "./ruleset/proxy.mrs",
+        "format": "text",
+        "url": "https://raw.githubusercontent.com/eutopiazen/rule/refs/heads/main/proxy.list",
+        "path": "./ruleset/proxy.list",
         "interval": 86400
       }
     ],
     "ip_rules": []
   },
   {
-    "name": "proxymedia",
-    "label": "代理媒体",
-    "emoji": "🎭",
-    "icon": "🎭",
-    "rule_name": "Proxy Media",
-    "group_label": "🎭 代理媒体",
-    "presets": [],
-    "site_rules": [
-      {
-        "key": "proxymedia",
-        "behavior": "domain",
-        "type": "http",
-        "format": "mrs",
-        "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/proxymedia.mrs",
-        "path": "./ruleset/proxymedia.mrs",
-        "interval": 86400
-      }
-    ],
-    "ip_rules": []
-  },
-  {
-    "name": "ehentai",
-    "label": "E-Hentai",
+    "name": "adults",
+    "label": "Adults",
     "emoji": "🔞",
     "icon": "🔞",
-    "rule_name": "E-Hentai",
-    "group_label": "🔞 E-Hentai",
+    "rule_name": "Adults",
+    "group_label": "🔞 Adults",
     "presets": [],
     "site_rules": [
       {
-        "key": "ehentai",
-        "behavior": "domain",
+        "key": "adults",
+        "behavior": "classical",
         "type": "http",
-        "format": "mrs",
-        "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/ehentai.mrs",
-        "path": "./ruleset/ehentai.mrs",
+        "format": "text",
+        "url": "https://raw.githubusercontent.com/eutopiazen/rule/refs/heads/main/Adults.list",
+        "path": "./ruleset/Adults.list",
         "interval": 86400
       }
     ],
@@ -952,12 +931,12 @@
     "presets": [],
     "site_rules": [
       {
-        "key": "pttracker",
+        "key": "geolocation-!cn",
         "behavior": "domain",
         "type": "http",
-        "format": "yaml",
+        "format": "mrs",
         "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/geolocation-!cn.mrs",
-        "path": "./ruleset/pttracker.mrs",
+        "path": "./ruleset/geolocation-!cn.mrs",
         "interval": 86400
       }
     ],
