@@ -397,6 +397,39 @@
     "ip_rules": []
   },
   {
+    "name": "speedtest",
+    "label": "Speedtest 测速",
+    "emoji": "⚡",
+    "icon": "⚡",
+    "rule_name": "Speedtest",
+    "group_label": "⚡ Speedtest 测速",
+    "presets": [
+      "balanced",
+      "comprehensive"
+    ],
+    "site_rules": [
+      {
+        "key": "speedtest_china",
+        "behavior": "classical",
+        "type": "http",
+        "format": "yaml",
+        "url": "https://kelee.one/Tool/Clash/Rule/SpeedtestChina.yaml",
+        "path": "./ruleset/SpeedtestChina.yaml",
+        "interval": 86400
+      },
+      {
+        "key": "speedtest_international",
+        "behavior": "classical",
+        "type": "http",
+        "format": "yaml",
+        "url": "https://kelee.one/Tool/Clash/Rule/SpeedtestInternational.yaml",
+        "path": "./ruleset/SpeedtestInternational.yaml",
+        "interval": 86400
+      }
+    ],
+    "ip_rules": []
+  },
+  {
     "name": "emby",
     "label": "Emby",
     "emoji": "📽️",
