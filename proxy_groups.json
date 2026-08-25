@@ -398,11 +398,11 @@
   },
   {
     "name": "speedtest",
-    "label": "Speedtest 测速",
+    "label": "Speedtest",
     "emoji": "⚡",
     "icon": "⚡",
     "rule_name": "Speedtest",
-    "group_label": "⚡ Speedtest 测速",
+    "group_label": "⚡ Speedtest",
     "presets": [
       "balanced",
       "comprehensive"
